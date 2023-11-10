@@ -1,18 +1,1 @@
-    cout<<"Enter num: ";cin>>x;
-    int ar[x];
-    cout<<"Enter ["<<x<<"] nums:"<<endl;
-    for(int i=0;i<x;i++){
-        cin>>ar[i];
-        sum+=ar[i];
-    }
-    l=ar[0];s=ar[0];
 
-    cout<<"with arr of ["<<x<<"] ints "<<"the numbs are"<<endl;
-    for(int i=0;i<x;i++){
-        if(ar[i]>l)l=ar[i];
-        if(ar[i]<s)s=ar[i];
-        cout<<ar[i]<<' ';
-    }
-
-    cout<<endl;
-    cout<<"avr="<<sum/x<<endl<<"sum= "<<sum<<endl<<"large="<<l<<endl<<"small="<<s;
