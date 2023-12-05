@@ -2,7 +2,6 @@
 #include <string>
 #include <cstring>
 using namespace std;
-//32
 int main() {
     string inpt;
     cout<<"enter your full name: ";
