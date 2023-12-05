@@ -1,0 +1,21 @@
+//with string!
+
+#include <iostream>
+#include <cstring>
+#include <string>
+using namespace std;
+int main(){
+    const string FAV="wa";
+    string x;
+    while(true){
+    cout<<"Guess!! ";
+    cin>>x;
+    if(x!=FAV)
+    continue;
+
+    break;
+
+    }
+    cout<<"Correct!";
+return 0;
+}
