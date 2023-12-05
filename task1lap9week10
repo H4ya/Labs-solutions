@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cstring>
+#include <string>
+using namespace std;
+int main(void){
+string x,y;cin>>x;
+int len=x.size();
+string n;
+for(int i=len;i>0;i--){
+    y+=x.at(i-1);
+}
+cout<<y;
+return 0;
+}
