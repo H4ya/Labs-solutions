@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstring>
+#include <string>
+using namespace std;
+int main(){
+string fn,mn,ln,password;
+int age;
+cin>>fn>>mn>>ln;
+cin>>age;
+password+=fn.at(fn.size()/2);
+password+=mn.at(mn.length()/2);
+password+=ln;
+cout<<password<<age;
+return 0;
+}
