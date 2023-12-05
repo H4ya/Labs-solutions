@@ -1,0 +1,18 @@
+//with c-string!
+#include <iostream>
+#include <cstring>
+#include <string>
+using namespace std;
+int main(){
+    const char FAV[3]="wa";
+    char x[15];
+    while(true){
+        cin.getline(x,14);
+        if(!strcmp(FAV,x)){
+            cout<<"Correct";
+            break;
+        }
+        cout<<"AGAIN!!!\n";
+    }
+return 0;
+}
