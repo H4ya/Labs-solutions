@@ -5,16 +5,14 @@
 #include <string>
 using namespace std;
 int main(){
-    const string FAV="wa";
+    const string FAV="water melon";
     string x;
     while(true){
-    cout<<"Guess!! ";
-    cin>>x;
-    if(x!=FAV)
-    continue;
-
+    getline(cin,x);
+    if(x!=FAV){
+        cout<<"Guess!!\n";
+        continue;}
     break;
-
     }
     cout<<"Correct!";
 return 0;
