@@ -1,0 +1,16 @@
+#include<iostream>
+#include <string>
+#include <cstring>
+using namespace std;
+int main() {
+    string num;
+    cout<<"Enter phone num ";
+    cin>> num;
+    cout<<"Country: ";
+    string key=num.substr(0,5);
+    if(key=="00966")cout<<"KSA";
+    else if(key=="00971")cout<<"UAE";
+    else if(key=="00926")cout<<"Jordan";
+    else cout<<"Unknown";
+    return 0;
+}
