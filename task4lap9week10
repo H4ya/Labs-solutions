@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstring>
+#include <string>
+using namespace std;
+int main(){
+    
+    char l;
+    cin>>l;
+    cin.ignore();
+    int c=0;
+    string phrase;
+    getline(cin,phrase);
+    
+    for(int i=0;i<phrase.size();i++){
+        
+        if(phrase.at(i)==l)
+            c++;
+    }
+    cout<<endl<<c;
+    
+    return 0;
+}
