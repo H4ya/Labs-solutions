@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstring>
+#include <string>
+using namespace std;
+int main(){
+    char l,want;
+    cin>>want;
+    //char you want to count it
+    cin>>l;
+    int c=0;
+    while(l!='.'){
+    if(l==want)
+        c++;
+    cin>>l;}
+    
+    cout<<endl<<c;
+    
+    return 0;
+}
