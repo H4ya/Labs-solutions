@@ -1,0 +1,14 @@
+#include<iostream>
+#include <string>
+#include <cstring>
+using namespace std;
+//32
+int main() {
+    string inpt;
+    cout<<"enter your full name: ";
+    getline(cin,inpt);
+    for(char a:inpt){
+        cout<<char(toupper(a));
+    }
+    return 0;
+}
