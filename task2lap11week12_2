@@ -1,0 +1,16 @@
+#include<iostream>
+#include <string>
+#include <cstring>
+using namespace std;
+//32
+int main() {
+    string inpt;
+    cin>>inpt;
+    for(int asci:inpt){
+        if(asci<97)
+            cout<<char(asci+32);
+        else
+            cout<<char(asci-32);
+    }
+    return 0;
+}
