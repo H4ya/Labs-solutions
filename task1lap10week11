@@ -22,5 +22,5 @@ int main() {
         cout<<"Unknown";
     }
     return 0;
-    
+
 }
